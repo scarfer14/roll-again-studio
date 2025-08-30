@@ -22,10 +22,15 @@ export default {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
-				background: 'hsl(var(--background))',
+				background: {
+					DEFAULT: 'hsl(var(--background))',
+					secondary: 'hsl(var(--background-secondary))',
+					tertiary: 'hsl(var(--background-tertiary))'
+				},
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
+					glow: 'hsl(var(--primary-glow))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
@@ -42,7 +47,12 @@ export default {
 				},
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
+					glow: 'hsl(var(--accent-glow))',
 					foreground: 'hsl(var(--accent-foreground))'
+				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -50,6 +60,7 @@ export default {
 				},
 				card: {
 					DEFAULT: 'hsl(var(--card))',
+					hover: 'hsl(var(--card-hover))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				sidebar: {
@@ -68,6 +79,17 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-gold': 'var(--gradient-gold)',
+				'gradient-dark': 'var(--gradient-dark)',
+				'gradient-neon': 'var(--gradient-neon)'
+			},
+			boxShadow: {
+				'glow-primary': 'var(--glow-primary)',
+				'glow-gold': 'var(--glow-gold)',
+				'glow-neon': 'var(--glow-neon)'
+			},
 			keyframes: {
 				'accordion-down': {
 					from: {
@@ -84,11 +106,22 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'spin-glow': {
+					'0%': { transform: 'rotate(0deg)', boxShadow: 'var(--glow-primary)' },
+					'50%': { boxShadow: 'var(--glow-gold)' },
+					'100%': { transform: 'rotate(360deg)', boxShadow: 'var(--glow-primary)' }
+				},
+				'pulse-neon': {
+					'0%, 100%': { opacity: '1', boxShadow: 'var(--glow-neon)' },
+					'50%': { opacity: '0.8', boxShadow: 'var(--glow-primary)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'spin-glow': 'spin-glow 3s linear infinite',
+				'pulse-neon': 'pulse-neon 2s ease-in-out infinite'
 			}
 		}
 	},
