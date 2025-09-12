@@ -114,14 +114,16 @@ const GameCategories = () => {
                 </div>
 
                 {/* Action */}
-                <Button 
-                  variant="ghost" 
-                  size="sm" 
-                  className="group-hover:text-primary group-hover:glow-primary w-full justify-between"
-                >
-                  <span>Play Now</span>
-                  <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                </Button>
+                <a href="https://www.pots888.vip" rel="noopener noreferrer">
+                  <Button 
+                    variant="ghost" 
+                    size="sm" 
+                    className="group-hover:text-primary group-hover:glow-primary w-full justify-between"
+                  >
+                    <span>Play Now</span>
+                    <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </a>
               </div>
             </Card>
           ))}
@@ -129,14 +131,18 @@ const GameCategories = () => {
 
         {/* Bottom CTA */}
         <div className="text-center">
-          <Button 
-            variant="casino" 
-            size="lg" 
-            className="px-8 py-4 text-lg glow-gold hover:scale-105 transition-all duration-300"
-          >
-            <Crown size={20} className="mr-3" />
-            Explore All Games
-          </Button>
+          <div className="text-center">
+            <a href="https://www.pots888.vip/" rel="noopener noreferrer">
+              <Button 
+                variant="casino" 
+                size="lg" 
+                className="px-8 py-4 text-lg glow-gold hover:scale-105 transition-all duration-300"
+              >
+                <Crown size={20} className="mr-3" />
+                Explore All Games
+              </Button>
+            </a>
+          </div>
         </div>
       </div>
     </section>

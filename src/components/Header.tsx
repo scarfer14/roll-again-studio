@@ -7,12 +7,12 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", href: "#", icon: Trophy },
-    { name: "Slot Games", href: "#", icon: Gamepad2 },
-    { name: "Live Casino", href: "#", icon: Zap },
-    { name: "Sports Betting", href: "#", icon: Trophy },
-    { name: "Promotions", href: "#", icon: Zap },
-  ];
+  { name: "Home", href: "https://www.pots888.vip", icon: Trophy },
+  { name: "Slot Games", href: "https://www.pots888.vip/egames?locale=en", icon: Gamepad2 },
+  { name: "Live Casino", href: "https://www.pots888.vip/casino?locale=en", icon: Zap },
+  { name: "Sports Betting", href: "https://www.pots888.vip/sport?locale=en", icon: Trophy },
+  { name: "Promotions", href: "https://www.pots888.vip/bonuses?locale=en", icon: Zap },
+];
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
@@ -21,7 +21,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img src={rollemLogo} alt="ROLLEM" className="h-10 w-auto" />
-            <span className="text-2xl font-bold text-gradient">ROLLEM</span>
+            <span className="text-2xl font-bold text-gradient">ROLL'EM</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -40,13 +40,17 @@ const Header = () => {
 
           {/* Action Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
-            <Button variant="ghost" size="sm" className="hover:glow-primary">
-              <User size={16} className="mr-2" />
-              Login
-            </Button>
-            <Button variant="casino" size="sm" className="glow-gold">
-              Register
-            </Button>
+            <a href="https://www.pots888.vip" rel="noopener noreferrer">
+              <Button variant="ghost" size="sm" className="hover:glow-primary">
+                <User size={16} className="mr-2" />
+                Login
+              </Button>
+            </a>
+            <a href="https://www.pots888.vip" rel="noopener noreferrer">
+              <Button variant="casino" size="sm" className="glow-gold">
+                Register
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -73,13 +77,17 @@ const Header = () => {
                 </a>
               ))}
               <div className="flex flex-col space-y-3 pt-4 border-t border-border">
-                <Button variant="ghost" size="sm">
-                  <User size={16} className="mr-2" />
-                  Login
-                </Button>
-                <Button variant="casino" size="sm">
-                  Register
-                </Button>
+                <a href="https://www.pots888.vip" rel="noopener noreferrer">
+                  <Button variant="ghost" size="sm">
+                    <User size={16} className="mr-2" />
+                    Login
+                  </Button>
+                </a>
+                <a href="https://www.pots888.vip" rel="noopener noreferrer">
+                  <Button variant="casino" size="sm">
+                    Register
+                  </Button>
+                </a>
               </div>
             </div>
           </nav>

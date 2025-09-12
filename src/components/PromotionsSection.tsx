@@ -128,14 +128,16 @@ const PromotionsSection = () => {
                 </div>
 
                 {/* Action Button */}
-                <Button 
-                  variant="outline" 
-                  size="sm" 
-                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground group-hover:glow-primary"
-                >
-                  <span>Claim Bonus</span>
-                  <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                </Button>
+                <a href="https://www.pots888.vip" rel="noopener noreferrer">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground group-hover:glow-primary"
+                  >
+                    <span>Claim Bonus</span>
+                    <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </a>
               </div>
             </Card>
           ))}

@@ -66,21 +66,25 @@ const HeroSection = () => {
 
           {/* Call to Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              variant="casino" 
-              size="lg" 
-              className="text-lg px-8 py-6 glow-gold hover:scale-105 transition-all duration-300"
-            >
-              <Play size={20} className="mr-3" />
-              Play Now - Get ₱500 Bonus
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="text-lg px-8 py-6 border-primary text-primary hover:bg-primary hover:text-primary-foreground hover:glow-primary transition-all duration-300"
-            >
-              Download App
-            </Button>
+            <a href="https://www.pots888.vip" rel="noopener noreferrer">
+              <Button 
+                variant="casino" 
+                size="lg" 
+                className="text-lg px-8 py-6 glow-gold hover:scale-105 transition-all duration-300"
+              >
+                <Play size={20} className="mr-3" />
+                Play Now - Get ₱500 Bonus
+              </Button>
+            </a>
+            <a href="https://www.pots888.vip/" rel="noopener noreferrer">
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="text-lg px-8 py-6 border-primary text-primary hover:bg-primary hover:text-primary-foreground hover:glow-primary transition-all duration-300"
+              >
+                Download App
+              </Button>
+            </a>
           </div>
 
           {/* Promo Text */}
