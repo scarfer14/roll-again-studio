@@ -128,7 +128,7 @@ const PromotionsSection = () => {
                 </div>
 
                 {/* Action Button */}
-                <a href="https://www.pots888.vip" rel="noopener noreferrer">
+                <a href="https://www.pots888.vip/client/signup/?referral=pp81614" rel="noopener noreferrer">
                   <Button 
                     variant="outline" 
                     size="sm" 

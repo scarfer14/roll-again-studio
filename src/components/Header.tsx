@@ -7,11 +7,11 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-  { name: "Home", href: "https://www.pots888.vip", icon: Trophy },
-  { name: "Slot Games", href: "https://www.pots888.vip/egames?locale=en", icon: Gamepad2 },
-  { name: "Live Casino", href: "https://www.pots888.vip/casino?locale=en", icon: Zap },
-  { name: "Sports Betting", href: "https://www.pots888.vip/sport?locale=en", icon: Trophy },
-  { name: "Promotions", href: "https://www.pots888.vip/bonuses?locale=en", icon: Zap },
+  { name: "Home", href: "https://www.pots888.vip/client/signup/?referral=pp81614", icon: Trophy },
+  { name: "Slot Games", href: "https://www.pots888.vip/client/signup/?referral=pp81614", icon: Gamepad2 },
+  { name: "Live Casino", href: "https://www.pots888.vip/client/signup/?referral=pp81614", icon: Zap },
+  { name: "Sports Betting", href: "https://www.pots888.vip/client/signup/?referral=pp81614", icon: Trophy },
+  { name: "Promotions", href: "https://www.pots888.vip/client/signup/?referral=pp81614", icon: Zap },
 ];
 
   return (
@@ -40,13 +40,13 @@ const Header = () => {
 
           {/* Action Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
-            <a href="https://www.pots888.vip" rel="noopener noreferrer">
+            <a href="https://www.pots888.vip/client/signup/?referral=pp81614" rel="noopener noreferrer">
               <Button variant="ghost" size="sm" className="hover:glow-primary">
                 <User size={16} className="mr-2" />
                 Login
               </Button>
             </a>
-            <a href="https://www.pots888.vip" rel="noopener noreferrer">
+            <a href="https://www.pots888.vip/client/signup/?referral=pp81614" rel="noopener noreferrer">
               <Button variant="casino" size="sm" className="glow-gold">
                 Register
               </Button>
@@ -77,13 +77,13 @@ const Header = () => {
                 </a>
               ))}
               <div className="flex flex-col space-y-3 pt-4 border-t border-border">
-                <a href="https://www.pots888.vip" rel="noopener noreferrer">
+                <a href="https://www.pots888.vip/client/signup/?referral=pp81614" rel="noopener noreferrer">
                   <Button variant="ghost" size="sm">
                     <User size={16} className="mr-2" />
                     Login
                   </Button>
                 </a>
-                <a href="https://www.pots888.vip" rel="noopener noreferrer">
+                <a href="https://www.pots888.vip/client/signup/?referral=pp81614" rel="noopener noreferrer">
                   <Button variant="casino" size="sm">
                     Register
                   </Button>

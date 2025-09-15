@@ -114,7 +114,7 @@ const GameCategories = () => {
                 </div>
 
                 {/* Action */}
-                <a href="https://www.pots888.vip" rel="noopener noreferrer">
+                <a href="https://www.pots888.vip/client/signup/?referral=pp81614" rel="noopener noreferrer">
                   <Button 
                     variant="ghost" 
                     size="sm" 
@@ -132,7 +132,7 @@ const GameCategories = () => {
         {/* Bottom CTA */}
         <div className="text-center">
           <div className="text-center">
-            <a href="https://www.pots888.vip/" rel="noopener noreferrer">
+            <a href="https://www.pots888.vip/client/signup/?referral=pp81614" rel="noopener noreferrer">
               <Button 
                 variant="casino" 
                 size="lg" 

@@ -66,7 +66,7 @@ const HeroSection = () => {
 
           {/* Call to Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="https://www.pots888.vip" rel="noopener noreferrer">
+            <a href="https://www.pots888.vip/client/signup/?referral=pp81614" rel="noopener noreferrer">
               <Button 
                 variant="casino" 
                 size="lg" 
@@ -76,7 +76,7 @@ const HeroSection = () => {
                 Play Now - Get ₱500 Bonus
               </Button>
             </a>
-            <a href="https://www.pots888.vip/" rel="noopener noreferrer">
+            <a href="https://www.pots888.vip/client/signup/?referral=pp81614" rel="noopener noreferrer">
               <Button 
                 variant="outline" 
                 size="lg" 
