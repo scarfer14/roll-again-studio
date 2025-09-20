@@ -46,7 +46,7 @@ const Header = () => {
                 Login
               </Button>
             </a>
-            <a href="https://www.pots888.vip/client/signup/?referral=pp81614" rel="noopener noreferrer">
+            <a href="https://www.pots888.vip/client/signup/?referral=dd13930" rel="noopener noreferrer">
               <Button variant="casino" size="sm" className="glow-gold">
                 Register
               </Button>
@@ -83,7 +83,7 @@ const Header = () => {
                     Login
                   </Button>
                 </a>
-                <a href="https://www.pots888.vip/client/signup/?referral=pp81614" rel="noopener noreferrer">
+                <a href="https://www.pots888.vip/client/signup/?referral=dd13930" rel="noopener noreferrer">
                   <Button variant="casino" size="sm">
                     Register
                   </Button>
